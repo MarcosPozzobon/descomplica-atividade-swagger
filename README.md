@@ -4,7 +4,7 @@ cujo objetivo era desenvolver uma API simples utilizando Spring Boot.
 
 
 # O QUE FOI CRIADO?
-# Criei uma API baseada na utilização de uma metodologia ágil. Basicamente se trata de uma aplicação onde o usuário pode criar um gerenciamento de tarefas e usuários utilizando Kanban.
+* Criei uma API baseada na utilização de uma metodologia ágil. Basicamente se trata de uma aplicação onde o usuário pode criar um gerenciamento de tarefas e usuários utilizando Kanban.*
 *é possível cadastrar, listar, buscar, filtrar, atualizar e deletar usuários.*
 *é possível criar uma tarefa, atribuir ela a um responsável, listar tarefas e filtrar por descrição, título, estado da tarefa e ID da tarefa além de também poder mudar essa tarefa
 para Backlog, Doing, Review e Done ("Backlog", "Em andamento", "Revisando", "Finalizado").*
