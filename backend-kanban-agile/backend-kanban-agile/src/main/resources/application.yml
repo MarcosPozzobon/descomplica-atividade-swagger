@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      show-sql: true
+server:
+  port: 8080
+  servlet:
+    tomcat:
+      max-threads: 100
+      min-spare-threads: 10
+      max-connections: 1000
+      connection-timeout: 20000
+      max-http-header-size: 8192
